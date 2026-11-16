@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A fast, light frontend for make.fun: live bounty board, bounty pages, leaderboards and hunter profiles, from the public API.">
+<title>make.fun bounties — fast board</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#/"><span class="dot" aria-hidden="true"></span>make<span class="fun">.fun</span> <span class="tag">board</span></a>
+  <nav aria-label="Main">
+    <a href="#/" data-nav="board">Bounties</a>
+    <a href="#/rankings" data-nav="rankings">Rankings</a>
+    <a href="#/live" data-nav="live">Live</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer>
+  <p>Unofficial frontend. Live data from the <a href="https://make.fun">make.fun</a> public API — no sign-in, nothing is written. Rewards are paid in USDC on Solana.</p>
+</footer>
+</body>
+</html>
